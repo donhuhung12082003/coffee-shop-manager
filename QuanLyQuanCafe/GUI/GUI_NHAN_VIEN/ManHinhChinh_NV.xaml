@@ -1,0 +1,62 @@
+﻿<Window x:Class="QuanLyQuanCafe.GUI.GUI_NHAN_VIEN.ManHinhChinh_NV"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:QuanLyQuanCafe.GUI.GUI_NHAN_VIEN"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+WindowStyle="None"
+ResizeMode="NoResize"
+        Title="ManHinhChinh_NV" Height="676" Width="1343">
+    <Grid x:Name="manhinhchinh_nv" Loaded="manhinhchinh_Loaded">
+        <Menu x:Name="menu_chinh" Margin="0,0,0,623">
+            <MenuItem x:Name="menuitem_thongtincanhan" Header="Thông tin cá nhân" Height="43" Width="126" Click="menuitem_thongtincanhan_Click"/>
+            <MenuItem x:Name="menuitem_congthucphache" Header="Công thức pha chế" Height="41" Width="140" Click="menuitem_congthucphache_Click"/>
+            <MenuItem x:Name="menu_dangxuat" Header="Đăng xuất" Height="40" Width="93" Click="menu_dangxuat_Click"/>
+        </Menu>
+        <Label Content="Bàn đang chọn:" HorizontalAlignment="Left" Height="30" Margin="5,70,0,0" VerticalAlignment="Top" Width="95"/>
+        <TextBlock x:Name="tb_bandangchon" HorizontalAlignment="Left" Height="25" Margin="100,74,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="104" Text="Chưa chọn bàn"/>
+        <ScrollViewer x:Name="dg_dsban" HorizontalAlignment="Left" Height="500" Margin="10,123,0,0" VerticalAlignment="Top" Width="288">
+            <WrapPanel x:Name="panel_dsbantungtang" Width="262"></WrapPanel>
+        </ScrollViewer>
+        <DataGrid AutoGenerateColumns="False" IsReadOnly="True" x:Name="dg_dsdouong" HorizontalAlignment="Left" Height="414" Margin="314,0,0,0" VerticalAlignment="Center" Width="474">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Mã đồ uống" Binding="{Binding MaDoUong}" Width="*"/>
+                <DataGridTextColumn Header="Tên đồ uống" Binding="{Binding TenDoUong}" Width="*"/>
+                <DataGridTextColumn Header="Giá" Binding="{Binding DonGia, StringFormat={}{0:N0} VNĐ}" Width="*"/>
+
+            </DataGrid.Columns>
+        </DataGrid>
+        <Label Content="Tìm tên đồ uống:" HorizontalAlignment="Left" Height="29" Margin="316,68,0,0" VerticalAlignment="Top" Width="184"/>
+        <TextBox x:Name="txt_timdouong" HorizontalAlignment="Left" Height="29" Margin="500,71,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="172"/>
+        <Button x:Name="btn_thoat" Content="Tìm" HorizontalAlignment="Left" Height="29" Margin="680,71,0,0" VerticalAlignment="Top" Width="108" Click="btn_thoat_Click"/>
+        <Label Content="Số lượng:" HorizontalAlignment="Left" Height="37" Margin="314,586,0,0" VerticalAlignment="Top" Width="121"/>
+        <TextBox x:Name="txt_soluongdouonggoi" HorizontalAlignment="Left" Height="37" Margin="449,586,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="102"/>
+        <Button x:Name="btn_themdouonggoi" Content="Thêm đồ" HorizontalAlignment="Left" Height="37" Margin="566,586,0,0" VerticalAlignment="Top" Width="147" Click="btn_themdouonggoi_Click"/>
+        <GroupBox HorizontalAlignment="Left" Height="108" Header="Thông tin hóa đơn" Margin="807,58,0,0" VerticalAlignment="Top" Width="389"/>
+        <Label Content="Nhân viên:" HorizontalAlignment="Left" Height="33" Margin="819,82,0,0" VerticalAlignment="Top" Width="99"/>
+        <Label Content="Ngày" HorizontalAlignment="Left" Height="33" Margin="819,120,0,0" VerticalAlignment="Top" Width="99"/>
+        <Image Source="D:\lap_trinh.NET\QuanLyQuanCafe\QuanLyQuanCafe\GUI\mau-thiet-ke-logo-thuong-hieu-cafe-SPencil-Agency-5.webp" HorizontalAlignment="Left" Height="99" Margin="1201,67,0,0" VerticalAlignment="Top" Width="133"/>
+        <TextBlock x:Name="tb_nhanvienlaphoadon" HorizontalAlignment="Left" Height="30" Margin="936,82,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="249"/>
+        <TextBlock x:Name="tb_ngaylaphoadon" HorizontalAlignment="Left" Height="30" Margin="936,123,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="249"/>
+        <DataGrid AutoGenerateColumns="False" IsReadOnly="True" x:Name="dg_dsdouonggoi" HorizontalAlignment="Left" Height="357" Margin="807,171,0,0" VerticalAlignment="Top" Width="526" >
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="STT" Binding="{Binding SoThuTu}" Width="*"/>
+                <DataGridTextColumn Header="Mã đồ uống" Binding="{Binding MaDoUong}" Width="*"/>
+                <DataGridTextColumn Header="Tên đồ uống" Binding="{Binding TenDoUong}" Width="*"/>
+                <DataGridTextColumn Header="Số lượng" Binding="{Binding SoLuong}" Width="*"/>
+                <DataGridTextColumn Header="Giá" Binding="{Binding Gia}" Width="*"/>
+                <DataGridTextColumn Header="Thành tiền" Binding="{Binding ThanhTien}" Width="*"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button x:Name="btn_xoadouonggoi" Content="Xóa đồ uống" HorizontalAlignment="Left" Height="36" Margin="987,533,0,0" VerticalAlignment="Top" Width="228" Click="btn_xoadouonggoi_Click_1"/>
+        <Label Content="Tổng" HorizontalAlignment="Left" Height="37" Margin="718,586,0,0" VerticalAlignment="Top" Width="62"/>
+        <TextBlock x:Name="tb_tongtienthanhtoan" HorizontalAlignment="Left" Height="37" Margin="790,586,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="140"/>
+        <Button x:Name="btn_thanhtoanhoadon" Content="Thanh toán và in hóa đơn" HorizontalAlignment="Left" Height="37" Margin="987,586,0,0" VerticalAlignment="Top" Width="228" Click="btn_thanhtoanhoadon_Click"/>
+        <TextBlock HorizontalAlignment="Left" Height="37" Margin="941,594,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="37" Text="VNĐ"/>
+        <Label Content="Tầng:" HorizontalAlignment="Left" Height="28" Margin="204,70,0,0" VerticalAlignment="Top" Width="43"/>
+        <ComboBox x:Name="cbo_tang" HorizontalAlignment="Left" Height="27" Margin="252,71,0,0" VerticalAlignment="Top" Width="46" SelectionChanged="cbo_tang_SelectionChanged"/>
+        <Button x:Name="btn_thoat1" Content="Thoát" HorizontalAlignment="Left" Height="37" Margin="1224,586,0,0" VerticalAlignment="Top" Width="105" Click="btn_thoat1_Click"/>
+    </Grid>
+</Window>

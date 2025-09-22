@@ -1,0 +1,44 @@
+﻿<Window x:Class="QuanLyQuanCafe.GUI.GUI_ADMIN.QuanLyTaiKhoan"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:QuanLyQuanCafe.GUI.GUI_ADMIN"
+        mc:Ignorable="d"
+       
+WindowStyle="None"
+ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen"
+        Title="                                                                                                     Quản lý tài khoản" Height="489" Width="816">
+    <Grid x:Name="quanlytaikhoan" Loaded="quanlytaikhoan_Loaded">
+        <Label Content="Tên đăng nhập:" HorizontalAlignment="Left" Height="27" Margin="248,45,0,0" VerticalAlignment="Top" Width="95"/>
+        <Label Content="Mật khẩu:" HorizontalAlignment="Left" Height="27" Margin="528,45,0,0" VerticalAlignment="Top" Width="90"/>
+        <Label Content="Quyền:" HorizontalAlignment="Left" Height="27" Margin="551,91,0,0" VerticalAlignment="Top" Width="50"/>
+        <TextBox x:Name="txt_tendangnhap" HorizontalAlignment="Left" Height="27" Margin="362,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="161" TextChanged="txt_tendangnhap_TextChanged" Text="user02"/>
+        <TextBox x:Name="txt_matkhau" HorizontalAlignment="Left" Height="27" Margin="623,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="161" Text="user02"/>
+        <ComboBox x:Name="cbo_quyen" HorizontalAlignment="Left" Height="29" Margin="624,92,0,0" VerticalAlignment="Top" Width="161"/>
+        <Label Content="Tìm theo tên:" HorizontalAlignment="Left" Height="27" Margin="124,138,0,0" VerticalAlignment="Top" Width="94"/>
+        <TextBox x:Name="txt_timtaikhoantheoten" HorizontalAlignment="Left" Height="27" Margin="290,138,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="207"/>
+        <Button x:Name="btn_timtaikhoantheoten" Content="Tìm" HorizontalAlignment="Left" Height="27" Margin="551,138,0,0" VerticalAlignment="Top" Width="181" Click="btn_timtaikhoantheoten_Click"/>
+        <DataGrid AutoGenerateColumns="False" IsReadOnly="True" x:Name="dg_dstaikhoan" HorizontalAlignment="Center" Height="227" Margin="0,178,0,0" VerticalAlignment="Top" Width="780" SelectionChanged="DataGrid_SelectionChanged">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Mã tài khoản" Binding="{Binding MaTaiKhoan}" Width="*" />
+                <DataGridTextColumn Header="Tên đăng nhập" Binding="{Binding TenDangNhap}" Width="*" />
+                <DataGridTextColumn Header="Mật khẩu" Binding="{Binding MatKhau}" Width="*" />
+                <DataGridTextColumn Header="Mã nhân viên" Binding="{Binding MaNhanVien}" Width="*" />
+                <DataGridTextColumn Header="Tên nhân viên" Binding="{Binding TenNhanVien}" Width="*" />
+                <DataGridTextColumn Header="Quyền" Binding="{Binding Quyen}" Width="*" />
+            </DataGrid.Columns>
+        </DataGrid>
+        <Label Content="Tài khoản thuộc quyền sở hữu của mã nhân viên&#xD;&#xA;(nếu nhân viên đã có trong bảng NhanVien thì mới cần nhập):" HorizontalAlignment="Left" Height="45" Margin="10,88,0,0" VerticalAlignment="Top" Width="341"/>
+        <TextBox x:Name="txt_manhanviensohuutaikhoan" HorizontalAlignment="Left" Height="35" Margin="385,88,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="157" Text=""/>
+        <Button x:Name="btn_themtaikhoan" Content="Thêm" HorizontalAlignment="Left" Height="28" Margin="146,424,0,0" VerticalAlignment="Top" Width="94" Click="btn_themtaikhoan_Click"/>
+        <Button x:Name="btn_suataikhoan" Content="Sửa" HorizontalAlignment="Left" Height="28" Margin="257,424,0,0" VerticalAlignment="Top" Width="94" Click="btn_suataikhoan_Click"/>
+        <Button x:Name="btn_xoataikhoan" Content="Xóa" HorizontalAlignment="Left" Height="28" Margin="363,424,0,0" VerticalAlignment="Top" Width="94" Click="btn_xoataikhoan_Click"/>
+        <Button x:Name="btn_nhaplai" Content="Nhập lại" HorizontalAlignment="Left" Height="28" Margin="467,424,0,0" VerticalAlignment="Top" Width="94" RenderTransformOrigin="1.011,0.501" Click="btn_nhaplai_Click" />
+        <Button x:Name="btn_thoat" Content="Thoát" HorizontalAlignment="Left" Height="28" Margin="576,424,0,0" VerticalAlignment="Top" Width="94" RenderTransformOrigin="1.011,0.501" Click="btn_thoat_Click" />
+        <Label Content="Mã tài khoản:" HorizontalAlignment="Left" Height="27" Margin="18,45,0,0" VerticalAlignment="Top" Width="83"/>
+        <TextBox x:Name="txt_mataikhoan" HorizontalAlignment="Left" Height="27" Margin="106,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="137" Text="TK03"/>
+
+    </Grid>
+</Window>

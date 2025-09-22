@@ -1,0 +1,56 @@
+﻿<Window x:Class="QuanLyQuanCafe.GUI.GUI_ADMIN.QuanLyDoUong"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:QuanLyQuanCafe.GUI.GUI_ADMIN"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+WindowStyle="None"
+ResizeMode="NoResize"
+        Title="QuanLyDoUong" Height="450" Width="800">
+    <Grid x:Name="quanlydouong" Loaded="quanlydouong_Loaded">
+        <Label Content="Mã đồ uống:" HorizontalAlignment="Left" Height="30" Margin="22,10,0,0" VerticalAlignment="Top" Width="169"/>
+        <Label Content="Tên đồ uống:" HorizontalAlignment="Left" Height="30" Margin="22,43,0,0" VerticalAlignment="Top" Width="169"/>
+        <Label Content="Đơn giá:" HorizontalAlignment="Left" Height="30" Margin="22,77,0,0" VerticalAlignment="Top" Width="169"/>
+        <Label Content="Loại đồ uống:" HorizontalAlignment="Left" Height="30" Margin="22,110,0,0" VerticalAlignment="Top" Width="169"/>
+        <TextBox x:Name="txt_madouong" HorizontalAlignment="Left" Height="30" Margin="215,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="185"/>
+        <TextBox x:Name="txt_tendouong" HorizontalAlignment="Left" Height="30" Margin="215,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="185"/>
+        <TextBox x:Name="txt_giadouong" HorizontalAlignment="Left" Height="30" Margin="215,80,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="185"/>
+        <ComboBox x:Name="cbo_loaidouong" HorizontalAlignment="Left" Height="30" Margin="215,115,0,0" VerticalAlignment="Top" Width="185"/>
+        <Button x:Name="btn_chonanh" Content="Chọn ảnh" HorizontalAlignment="Left" Height="30" Margin="442,28,0,0" VerticalAlignment="Top" Width="115" Click="btn_chonanh_Click"/>
+        <Button x:Name="btn_xoaanh" Content="Xóa ảnh" HorizontalAlignment="Left" Height="30" Margin="442,82,0,0" VerticalAlignment="Top" Width="115" Click="btn_xoaanh_Click"/>
+        <DataGrid AutoGenerateColumns="False" IsReadOnly="True" x:Name="dg_dsdouong" HorizontalAlignment="Center" Height="141" Margin="0,217,0,0" VerticalAlignment="Top" Width="740" SelectionChanged="dg_dsdouong_SelectionChanged" >
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Mã đồ uống" Binding="{Binding MaDoUong}" Width="*"/>
+                <DataGridTextColumn Header="Tên đồ uống" Binding="{Binding TenDoUong}" Width="*" />
+                <DataGridTextColumn Header="Mã loại đồ uống" Binding="{Binding MaLoai}" Width="*"/>
+                <DataGridTextColumn Header="Giá" Binding="{Binding DonGia, StringFormat={}{0:N0} VNĐ}" Width="*"/>
+                <DataGridTemplateColumn  Header="Hình ảnh" Width="*">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Image  Source="{Binding HinhAnh}" Width="60" Height="60" Stretch="UniformToFill"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button x:Name="btn_themdouong" Content="Thêm" HorizontalAlignment="Left" Height="28" Margin="84,376,0,0" VerticalAlignment="Top" Width="88" Click="btn_themdouong_Click"/>
+        <Button x:Name="btn_suadouong" Content="Sửa" HorizontalAlignment="Left" Height="28" Margin="188,376,0,0" VerticalAlignment="Top" Width="88" Click="btn_suadouong_Click"/>
+        <Button x:Name="btn_xoadouong" Content="Xóa" HorizontalAlignment="Left" Height="28" Margin="302,376,0,0" VerticalAlignment="Top" Width="88" Click="btn_xoadouong_Click"/>
+        <Button x:Name="btn_nhaplai" Content="Nhập lại" HorizontalAlignment="Left" Height="28" Margin="402,376,0,0" VerticalAlignment="Top" Width="88" Click="btn_nhaplai_Click" />
+        <Button x:Name="btn_xuatexceldanhsachdouong" Content="Xuất excel" HorizontalAlignment="Left" Height="28" Margin="504,376,0,0" VerticalAlignment="Top" Width="88" Click="btn_xuatexceldanhsachdouong_Click"/>
+        <Button x:Name="btn_thoat" Content="Thoát" HorizontalAlignment="Left" Height="28" Margin="610,376,0,0" VerticalAlignment="Top" Width="88" Click="btn_thoat_Click"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="135" Margin="596,10,0,0" VerticalAlignment="Top" Width="174">
+            <Image Stretch="UniformToFill" x:Name="img_anhdouong" HorizontalAlignment="Left" Height="106" Margin="9,9,0,0" VerticalAlignment="Top" Width="150">
+
+
+            </Image>
+        </Border>
+        <Label Content="Tìm theo tên:" HorizontalAlignment="Left" Height="31" Margin="106,170,0,0" VerticalAlignment="Top" Width="145"/>
+        <TextBox x:Name="txt_timtheoten" HorizontalAlignment="Left" Height="31" Margin="276,170,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="124"/>
+        <Button x:Name="btn_timtheoten" Content="Tìm" HorizontalAlignment="Left" Height="31" Margin="442,170,0,0" VerticalAlignment="Top" Width="115" ButtonBase.Click="btn_timtheoten_Click"/>
+
+    </Grid>
+</Window>

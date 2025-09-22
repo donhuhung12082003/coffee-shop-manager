@@ -1,0 +1,34 @@
+﻿<Window x:Class="QuanLyQuanCafe.GUI.GUI_ADMIN.ThongKeTheoNgay"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:QuanLyQuanCafe.GUI.GUI_ADMIN"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+WindowStyle="None"
+ResizeMode="NoResize"
+        Title="ThongKeTheoNgay" Height="450" Width="800">
+    <Grid x:Name="btn_thoat">
+        <Label Content="LỊCH SỬ HÓA ĐƠN BÁN HÀNG" HorizontalAlignment="Center" Height="40" Margin="0,10,0,0" VerticalAlignment="Top" Width="188"/>
+        <Label Content="Từ ngày:" HorizontalAlignment="Left" Height="45" Margin="38,83,0,0" VerticalAlignment="Top" Width="123"/>
+        <Label Content="Đến ngày:" HorizontalAlignment="Left" Height="45" Margin="419,83,0,0" VerticalAlignment="Top" Width="123"/>
+        <DatePicker x:Name="dp_tungay" HorizontalAlignment="Left" Height="45" Margin="183,83,0,0" VerticalAlignment="Top" Width="212"/>
+        <DatePicker x:Name="dp_denngay" HorizontalAlignment="Left" Height="45" Margin="562,83,0,0" VerticalAlignment="Top" Width="212"/>
+        <DataGrid AutoGenerateColumns="False" IsReadOnly="True" x:Name="dg_dshoadon" HorizontalAlignment="Left" Height="138" Margin="38,203,0,0" VerticalAlignment="Top" Width="736" >
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Số thứ tự" Binding="{Binding SoThuTu}" Width="*"/>
+                <DataGridTextColumn Header="Ngày thanh toán" Binding="{Binding NgayThanhToan}" Width="*"/>
+                <DataGridTextColumn Header="Số lượng đồ uống đã bán" Binding="{Binding SoLuongDoUongDaBan}" Width="*"/>
+                <DataGridTextColumn Header="Tổng tiền" Binding="{Binding TongTien, StringFormat={}{0:N0} VNĐ}" Width="*"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button x:Name="btn_locdulieu" Content="Lọc dữ liệu" HorizontalAlignment="Left" Height="36" Margin="277,146,0,0" VerticalAlignment="Top" Width="235" Click="btn_locdulieu_Click"/>
+        <Button x:Name="btn_xuatexcel" Content="Xuất excel" HorizontalAlignment="Left" Height="34" Margin="209,357,0,0" VerticalAlignment="Top" Width="160" Click="btn_xuatexcel_Click"/>
+        <Label Content="Tổng" HorizontalAlignment="Left" Height="34" Margin="377,357,0,0" VerticalAlignment="Top" Width="75"/>
+        <TextBlock x:Name="tb_tongtien" HorizontalAlignment="Left" Height="33" Margin="461,357,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="160"/>
+        <Label Content="VNĐ" HorizontalAlignment="Left" Height="33" Margin="633,357,0,0" VerticalAlignment="Top" Width="47"/>
+        <Button Content="Thoát" HorizontalAlignment="Left" Margin="685,357,0,0" VerticalAlignment="Top" RenderTransformOrigin="12.745,6.325" Height="42" Width="89" Click="Button_Click"/>
+
+    </Grid>
+</Window>

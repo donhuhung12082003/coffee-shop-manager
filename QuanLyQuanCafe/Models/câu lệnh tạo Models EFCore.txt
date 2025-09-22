@@ -1,0 +1,7 @@
+Scaffold-DbContext "Data Source=LAPTOP-QIS0RT7P\SQLEXPRESS;Initial Catalog=QuanLyQuanCafe;Integrated Security=True;Encrypt=True;Trust Server Certificate=True" Microsoft.EntityFrameworkCore.SqlServer –OutputDir Models -Force
+
+
+
+
+
+Scaffold-DbContext "" Microsoft.EntityFrameworkCore.SqlServer –OutputDir Models (-Force)

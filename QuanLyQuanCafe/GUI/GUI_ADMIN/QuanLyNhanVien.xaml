@@ -1,0 +1,51 @@
+﻿<Window x:Class="QuanLyQuanCafe.GUI.GUI_ADMIN.QuanLyNhanVien"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:QuanLyQuanCafe.GUI.GUI_ADMIN"
+        mc:Ignorable="d"
+        
+WindowStyle="None"
+ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen"
+        Title="                                                                                                     Quản lý nhân viên" Height="520" Width="816">
+    <Grid x:Name="quanlynhanvien" Loaded="quanlynhanvien_Loaded">
+        <Label Content="Mã nhân viên:" HorizontalAlignment="Left" Height="35" Margin="20,19,0,0" VerticalAlignment="Top" Width="158"/>
+        <Label Content="Tên nhân viên:" HorizontalAlignment="Left" Height="35" Margin="20,59,0,0" VerticalAlignment="Top" Width="158"/>
+        <Label Content="Số điện thoại:" HorizontalAlignment="Left" Height="35" Margin="20,99,0,0" VerticalAlignment="Top" Width="158"/>
+        <TextBox x:Name="txt_manhanvien" HorizontalAlignment="Left" Height="35" Margin="183,19,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="212" Text="NV06"/>
+        <TextBox x:Name="txt_tennhanvien" HorizontalAlignment="Left" Height="35" Margin="183,59,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="212" Text="Nguyễn Văn F"/>
+        <TextBox x:Name="txt_sodienthoainhanvien" HorizontalAlignment="Left" Height="35" Margin="183,99,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="212" Text="09887654321"/>
+        <Label Content="Ngày vào làm:" HorizontalAlignment="Left" Height="35" Margin="415,19,0,0" VerticalAlignment="Top" Width="158"/>
+        <Label Content="Giới tính:" HorizontalAlignment="Left" Height="35" Margin="415,59,0,0" VerticalAlignment="Top" Width="158"/>
+        <Label Content="tuổi" HorizontalAlignment="Left" Height="35" Margin="415,99,0,0" VerticalAlignment="Top" Width="158"/>
+        <TextBox x:Name="txt_tuoinhanvien" HorizontalAlignment="Left" Height="35" Margin="578,99,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="212" TextChanged="txt_tuoinhanvien_TextChanged" Text="26"/>
+        <Label Content="Địa chỉ:" HorizontalAlignment="Left" Height="35" Margin="20,149,0,0" VerticalAlignment="Top" Width="158"/>
+        <TextBox x:Name="txt_diachinhanvien" HorizontalAlignment="Left" Height="35" Margin="183,149,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="607" Text="Hà Nội"/>
+        <DataGrid AutoGenerateColumns="False" IsReadOnly="True" x:Name="dg_dsnhanvien" HorizontalAlignment="Center" Height="197" Margin="0,233,0,0" VerticalAlignment="Top" Width="770" SelectionChanged="dg_dsnhanvien_SelectionChanged" >
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Mã nhân viên" Binding="{Binding MaNhanVien}" Width="*"/>
+                <DataGridTextColumn Header="Tên nhân viên" Binding="{Binding TenNhanVien}" Width="*"/>
+                <DataGridTextColumn Header="Số điện thoại" Binding="{Binding SoDienThoai}" Width="*"/>
+                <DataGridTextColumn Header="Ngày vào làm" Binding="{Binding NgayVaoLam}" Width="*"/>
+                <DataGridTextColumn Header="Giới tính" Binding="{Binding GioiTinh}" Width="*"/>
+                <DataGridTextColumn Header="Tuổi" Binding="{Binding Tuoi}" Width="*"/>
+                <DataGridTextColumn Header="Địa chỉ" Binding="{Binding DiaChi}" Width="*"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button x:Name="btn_themnhanvien" Content="Thêm" HorizontalAlignment="Left" Height="28" Margin="84,435,0,0" VerticalAlignment="Top" Width="94" Click="btn_themnhanvien_Click"/>
+        <Button x:Name="btn_suanhanvien" Content="Sửa" HorizontalAlignment="Left" Height="28" Margin="195,435,0,0" VerticalAlignment="Top" Width="94" Click="btn_suanhanvien_Click"/>
+        <Button x:Name="btn_xoanhanvien" Content="Xóa" HorizontalAlignment="Left" Height="28" Margin="306,435,0,0" VerticalAlignment="Top" Width="94" Click="btn_xoanhanvien_Click"/>
+        <Button x:Name="btn_nhaplai" Content="Nhập lại" HorizontalAlignment="Left" Height="28" Margin="415,435,0,0" VerticalAlignment="Top" Width="94" RenderTransformOrigin="1.011,0.501" Click="btn_nhaplai_Click"/>
+        <Label Content="Tìm kiếm theo tên:" HorizontalAlignment="Left" Height="29" Margin="71,192,0,0" VerticalAlignment="Top" Width="210"/>
+        <TextBox x:Name="txt_timnhanvientheoten" HorizontalAlignment="Left" Height="35" Margin="294,192,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="212" Text="F"/>
+        <Button x:Name="btn_timnhanvientheoten" Content="Tìm" HorizontalAlignment="Left" Height="35" Margin="511,192,0,0" VerticalAlignment="Top" Width="164" Click="btn_timnhanvientheoten_Click"/>
+        <DatePicker x:Name="dp_ngayvaolamnhanvien" HorizontalAlignment="Left" Height="35" Margin="578,19,0,0" VerticalAlignment="Top" Width="215"/>
+        <RadioButton IsChecked="True" x:Name="radio_nam" Content="Nam" HorizontalAlignment="Left" Height="26" Margin="578,64,0,0" VerticalAlignment="Top" Width="97"/>
+        <RadioButton x:Name="radio_nu" Content="Nữ" HorizontalAlignment="Left" Height="26" Margin="693,65,0,0" VerticalAlignment="Top" Width="97"/>
+        <Button x:Name="btn_thoat" Content="Thoát" HorizontalAlignment="Left" Height="28" Margin="648,435,0,0" VerticalAlignment="Top" Width="94" RenderTransformOrigin="1.011,0.501" Click="btn_thoat_Click"/>
+        <Button x:Name="btn_xuatexceldanhsachnhanvien" Content="Xuát excel" HorizontalAlignment="Left" Height="28" Margin="532,435,0,0" VerticalAlignment="Top" Width="94" RenderTransformOrigin="1.011,0.501" Click="btn_xuatexceldanhsachnhanvien_Click"/>
+
+    </Grid>
+</Window>

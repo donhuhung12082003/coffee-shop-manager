@@ -1,0 +1,218 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\lap_trinh.NET\\QuanLyQuanCafe\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{389D0D7F-79D5-4CDC-9CAA-833BC3BE614B}|QuanLyQuanCafe\\QuanLyQuanCafe.csproj|d:\\lap_trinh.net\\quanlyquancafe\\quanlyquancafe\\gui\\gui_admin\\quanlytaikhoan.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{389D0D7F-79D5-4CDC-9CAA-833BC3BE614B}|QuanLyQuanCafe\\QuanLyQuanCafe.csproj|solutionrelative:quanlyquancafe\\gui\\gui_admin\\quanlytaikhoan.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{389D0D7F-79D5-4CDC-9CAA-833BC3BE614B}|QuanLyQuanCafe\\QuanLyQuanCafe.csproj|d:\\lap_trinh.net\\quanlyquancafe\\quanlyquancafe\\gui\\gui_admin\\quanlynhanvien.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{389D0D7F-79D5-4CDC-9CAA-833BC3BE614B}|QuanLyQuanCafe\\QuanLyQuanCafe.csproj|solutionrelative:quanlyquancafe\\gui\\gui_admin\\quanlynhanvien.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{389D0D7F-79D5-4CDC-9CAA-833BC3BE614B}|QuanLyQuanCafe\\QuanLyQuanCafe.csproj|d:\\lap_trinh.net\\quanlyquancafe\\quanlyquancafe\\gui\\gui_admin\\quanlycongthucphache.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{389D0D7F-79D5-4CDC-9CAA-833BC3BE614B}|QuanLyQuanCafe\\QuanLyQuanCafe.csproj|solutionrelative:quanlyquancafe\\gui\\gui_admin\\quanlycongthucphache.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{389D0D7F-79D5-4CDC-9CAA-833BC3BE614B}|QuanLyQuanCafe\\QuanLyQuanCafe.csproj|d:\\lap_trinh.net\\quanlyquancafe\\quanlyquancafe\\gui\\gui_admin\\quanlydouong.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{389D0D7F-79D5-4CDC-9CAA-833BC3BE614B}|QuanLyQuanCafe\\QuanLyQuanCafe.csproj|solutionrelative:quanlyquancafe\\gui\\gui_admin\\quanlydouong.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{389D0D7F-79D5-4CDC-9CAA-833BC3BE614B}|QuanLyQuanCafe\\QuanLyQuanCafe.csproj|d:\\lap_trinh.net\\quanlyquancafe\\quanlyquancafe\\gui\\gui_admin\\quanlynguyenlieu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{389D0D7F-79D5-4CDC-9CAA-833BC3BE614B}|QuanLyQuanCafe\\QuanLyQuanCafe.csproj|solutionrelative:quanlyquancafe\\gui\\gui_admin\\quanlynguyenlieu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{389D0D7F-79D5-4CDC-9CAA-833BC3BE614B}|QuanLyQuanCafe\\QuanLyQuanCafe.csproj|d:\\lap_trinh.net\\quanlyquancafe\\quanlyquancafe\\gui\\gui_admin\\quanlyban.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{389D0D7F-79D5-4CDC-9CAA-833BC3BE614B}|QuanLyQuanCafe\\QuanLyQuanCafe.csproj|solutionrelative:quanlyquancafe\\gui\\gui_admin\\quanlyban.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{389D0D7F-79D5-4CDC-9CAA-833BC3BE614B}|QuanLyQuanCafe\\QuanLyQuanCafe.csproj|d:\\lap_trinh.net\\quanlyquancafe\\quanlyquancafe\\gui\\gui_admin\\manhinhchinh.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{389D0D7F-79D5-4CDC-9CAA-833BC3BE614B}|QuanLyQuanCafe\\QuanLyQuanCafe.csproj|solutionrelative:quanlyquancafe\\gui\\gui_admin\\manhinhchinh.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{389D0D7F-79D5-4CDC-9CAA-833BC3BE614B}|QuanLyQuanCafe\\QuanLyQuanCafe.csproj|d:\\lap_trinh.net\\quanlyquancafe\\quanlyquancafe\\class_hien_thi_datagridview\\dg_dshoadontheongay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{389D0D7F-79D5-4CDC-9CAA-833BC3BE614B}|QuanLyQuanCafe\\QuanLyQuanCafe.csproj|solutionrelative:quanlyquancafe\\class_hien_thi_datagridview\\dg_dshoadontheongay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{389D0D7F-79D5-4CDC-9CAA-833BC3BE614B}|QuanLyQuanCafe\\QuanLyQuanCafe.csproj|d:\\lap_trinh.net\\quanlyquancafe\\quanlyquancafe\\gui\\gui_chung\\dangnhap.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{389D0D7F-79D5-4CDC-9CAA-833BC3BE614B}|QuanLyQuanCafe\\QuanLyQuanCafe.csproj|solutionrelative:quanlyquancafe\\gui\\gui_chung\\dangnhap.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{389D0D7F-79D5-4CDC-9CAA-833BC3BE614B}|QuanLyQuanCafe\\QuanLyQuanCafe.csproj|d:\\lap_trinh.net\\quanlyquancafe\\quanlyquancafe\\gui\\gui_admin\\thongketheongay.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{389D0D7F-79D5-4CDC-9CAA-833BC3BE614B}|QuanLyQuanCafe\\QuanLyQuanCafe.csproj|solutionrelative:quanlyquancafe\\gui\\gui_admin\\thongketheongay.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{389D0D7F-79D5-4CDC-9CAA-833BC3BE614B}|QuanLyQuanCafe\\QuanLyQuanCafe.csproj|d:\\lap_trinh.net\\quanlyquancafe\\quanlyquancafe\\gui\\gui_admin\\thongketheongay.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{389D0D7F-79D5-4CDC-9CAA-833BC3BE614B}|QuanLyQuanCafe\\QuanLyQuanCafe.csproj|solutionrelative:quanlyquancafe\\gui\\gui_admin\\thongketheongay.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "QuanLyTaiKhoan.xaml.cs",
+              "DocumentMoniker": "D:\\lap_trinh.NET\\QuanLyQuanCafe\\QuanLyQuanCafe\\GUI\\GUI_ADMIN\\QuanLyTaiKhoan.xaml.cs",
+              "RelativeDocumentMoniker": "QuanLyQuanCafe\\GUI\\GUI_ADMIN\\QuanLyTaiKhoan.xaml.cs",
+              "ToolTip": "D:\\lap_trinh.NET\\QuanLyQuanCafe\\QuanLyQuanCafe\\GUI\\GUI_ADMIN\\QuanLyTaiKhoan.xaml.cs",
+              "RelativeToolTip": "QuanLyQuanCafe\\GUI\\GUI_ADMIN\\QuanLyTaiKhoan.xaml.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAAAEUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T03:17:07.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "QuanLyNhanVien.xaml.cs",
+              "DocumentMoniker": "D:\\lap_trinh.NET\\QuanLyQuanCafe\\QuanLyQuanCafe\\GUI\\GUI_ADMIN\\QuanLyNhanVien.xaml.cs",
+              "RelativeDocumentMoniker": "QuanLyQuanCafe\\GUI\\GUI_ADMIN\\QuanLyNhanVien.xaml.cs",
+              "ToolTip": "D:\\lap_trinh.NET\\QuanLyQuanCafe\\QuanLyQuanCafe\\GUI\\GUI_ADMIN\\QuanLyNhanVien.xaml.cs",
+              "RelativeToolTip": "QuanLyQuanCafe\\GUI\\GUI_ADMIN\\QuanLyNhanVien.xaml.cs",
+              "ViewState": "AgIAAJIAAAAAAAAAAAAAAJwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T03:12:31.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "QuanLyCongThucPhaChe.xaml.cs",
+              "DocumentMoniker": "D:\\lap_trinh.NET\\QuanLyQuanCafe\\QuanLyQuanCafe\\GUI\\GUI_ADMIN\\QuanLyCongThucPhaChe.xaml.cs",
+              "RelativeDocumentMoniker": "QuanLyQuanCafe\\GUI\\GUI_ADMIN\\QuanLyCongThucPhaChe.xaml.cs",
+              "ToolTip": "D:\\lap_trinh.NET\\QuanLyQuanCafe\\QuanLyQuanCafe\\GUI\\GUI_ADMIN\\QuanLyCongThucPhaChe.xaml.cs",
+              "RelativeToolTip": "QuanLyQuanCafe\\GUI\\GUI_ADMIN\\QuanLyCongThucPhaChe.xaml.cs",
+              "ViewState": "AgIAAJwAAAAAAAAAAAAmwKoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T03:09:59.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "QuanLyNguyenLieu.xaml.cs",
+              "DocumentMoniker": "D:\\lap_trinh.NET\\QuanLyQuanCafe\\QuanLyQuanCafe\\GUI\\GUI_ADMIN\\QuanLyNguyenLieu.xaml.cs",
+              "RelativeDocumentMoniker": "QuanLyQuanCafe\\GUI\\GUI_ADMIN\\QuanLyNguyenLieu.xaml.cs",
+              "ToolTip": "D:\\lap_trinh.NET\\QuanLyQuanCafe\\QuanLyQuanCafe\\GUI\\GUI_ADMIN\\QuanLyNguyenLieu.xaml.cs",
+              "RelativeToolTip": "QuanLyQuanCafe\\GUI\\GUI_ADMIN\\QuanLyNguyenLieu.xaml.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAUwFgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T03:05:55.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "QuanLyBan.xaml.cs",
+              "DocumentMoniker": "D:\\lap_trinh.NET\\QuanLyQuanCafe\\QuanLyQuanCafe\\GUI\\GUI_ADMIN\\QuanLyBan.xaml.cs",
+              "RelativeDocumentMoniker": "QuanLyQuanCafe\\GUI\\GUI_ADMIN\\QuanLyBan.xaml.cs",
+              "ToolTip": "D:\\lap_trinh.NET\\QuanLyQuanCafe\\QuanLyQuanCafe\\GUI\\GUI_ADMIN\\QuanLyBan.xaml.cs",
+              "RelativeToolTip": "QuanLyQuanCafe\\GUI\\GUI_ADMIN\\QuanLyBan.xaml.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAmwHkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T03:01:58.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "QuanLyDoUong.xaml.cs",
+              "DocumentMoniker": "D:\\lap_trinh.NET\\QuanLyQuanCafe\\QuanLyQuanCafe\\GUI\\GUI_ADMIN\\QuanLyDoUong.xaml.cs",
+              "RelativeDocumentMoniker": "QuanLyQuanCafe\\GUI\\GUI_ADMIN\\QuanLyDoUong.xaml.cs",
+              "ToolTip": "D:\\lap_trinh.NET\\QuanLyQuanCafe\\QuanLyQuanCafe\\GUI\\GUI_ADMIN\\QuanLyDoUong.xaml.cs",
+              "RelativeToolTip": "QuanLyQuanCafe\\GUI\\GUI_ADMIN\\QuanLyDoUong.xaml.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAUwJAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T02:45:57.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ThongKeTheoNgay.xaml.cs",
+              "DocumentMoniker": "D:\\lap_trinh.NET\\QuanLyQuanCafe\\QuanLyQuanCafe\\GUI\\GUI_ADMIN\\ThongKeTheoNgay.xaml.cs",
+              "RelativeDocumentMoniker": "QuanLyQuanCafe\\GUI\\GUI_ADMIN\\ThongKeTheoNgay.xaml.cs",
+              "ToolTip": "D:\\lap_trinh.NET\\QuanLyQuanCafe\\QuanLyQuanCafe\\GUI\\GUI_ADMIN\\ThongKeTheoNgay.xaml.cs",
+              "RelativeToolTip": "QuanLyQuanCafe\\GUI\\GUI_ADMIN\\ThongKeTheoNgay.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T15:26:32.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ThongKeTheoNgay.xaml",
+              "DocumentMoniker": "D:\\lap_trinh.NET\\QuanLyQuanCafe\\QuanLyQuanCafe\\GUI\\GUI_ADMIN\\ThongKeTheoNgay.xaml",
+              "RelativeDocumentMoniker": "QuanLyQuanCafe\\GUI\\GUI_ADMIN\\ThongKeTheoNgay.xaml",
+              "ToolTip": "D:\\lap_trinh.NET\\QuanLyQuanCafe\\QuanLyQuanCafe\\GUI\\GUI_ADMIN\\ThongKeTheoNgay.xaml",
+              "RelativeToolTip": "QuanLyQuanCafe\\GUI\\GUI_ADMIN\\ThongKeTheoNgay.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-17T15:25:16.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DG_DSHoaDonTheoNgay.cs",
+              "DocumentMoniker": "D:\\lap_trinh.NET\\QuanLyQuanCafe\\QuanLyQuanCafe\\Class_hien_thi_datagridview\\DG_DSHoaDonTheoNgay.cs",
+              "RelativeDocumentMoniker": "QuanLyQuanCafe\\Class_hien_thi_datagridview\\DG_DSHoaDonTheoNgay.cs",
+              "ToolTip": "D:\\lap_trinh.NET\\QuanLyQuanCafe\\QuanLyQuanCafe\\Class_hien_thi_datagridview\\DG_DSHoaDonTheoNgay.cs",
+              "RelativeToolTip": "QuanLyQuanCafe\\Class_hien_thi_datagridview\\DG_DSHoaDonTheoNgay.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T15:24:51.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ManHinhChinh.xaml",
+              "DocumentMoniker": "D:\\lap_trinh.NET\\QuanLyQuanCafe\\QuanLyQuanCafe\\GUI\\GUI_ADMIN\\ManHinhChinh.xaml",
+              "RelativeDocumentMoniker": "QuanLyQuanCafe\\GUI\\GUI_ADMIN\\ManHinhChinh.xaml",
+              "ToolTip": "D:\\lap_trinh.NET\\QuanLyQuanCafe\\QuanLyQuanCafe\\GUI\\GUI_ADMIN\\ManHinhChinh.xaml",
+              "RelativeToolTip": "QuanLyQuanCafe\\GUI\\GUI_ADMIN\\ManHinhChinh.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-22T16:31:33.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DangNhap.xaml",
+              "DocumentMoniker": "D:\\lap_trinh.NET\\QuanLyQuanCafe\\QuanLyQuanCafe\\GUI\\GUI_CHUNG\\DangNhap.xaml",
+              "RelativeDocumentMoniker": "QuanLyQuanCafe\\GUI\\GUI_CHUNG\\DangNhap.xaml",
+              "ToolTip": "D:\\lap_trinh.NET\\QuanLyQuanCafe\\QuanLyQuanCafe\\GUI\\GUI_CHUNG\\DangNhap.xaml",
+              "RelativeToolTip": "QuanLyQuanCafe\\GUI\\GUI_CHUNG\\DangNhap.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-22T16:28:32.439Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 112,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
